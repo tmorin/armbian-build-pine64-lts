@@ -19,3 +19,4 @@ ubuntu-*-cloudimg-console.log
 
 ### General annoyances ###
 .DS_Store
+.idea/
