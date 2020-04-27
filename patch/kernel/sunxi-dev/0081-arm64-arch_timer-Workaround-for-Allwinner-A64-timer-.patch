@@ -84,7 +84,7 @@ optimize the common case (2046/2048 of the time) to a single read by
 simply ignoring values that match the pattern. This still takes no more
 than 3 cycles in the worst case, and requires much less code.
 
-[1]: https://github.com/armbian/build/commit/a08cd6fe7ae9
+[1]: https://github.com/tmorin/armbian-build-pine64-lts/commit/a08cd6fe7ae9
 [2]: https://forum.armbian.com/topic/3458-a64-datetime-clock-issue/
 [3]: https://irclog.whitequark.org/linux-sunxi/2018-01-26
 

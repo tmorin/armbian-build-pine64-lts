@@ -1,11 +1,11 @@
 # Copyright (c) 2015-2017 Igor Pecovnik, igor.pecovnik@gma**.com
-# Copyright (c) 2015-2017 other Armbian contributors (https://github.com/armbian/build/graphs/contributors)
+# Copyright (c) 2015-2017 other Armbian contributors (https://github.com/tmorin/armbian-build-pine64-lts/graphs/contributors)
 #
 # This file is licensed under the terms of the GNU General Public
 # License version 2. This program is licensed "as is" without any
 # warranty of any kind, whether express or implied.
 #
-# This file is part of the Armbian build script https://github.com/armbian/build/
+# This file is part of the Armbian build script https://github.com/tmorin/armbian-build-pine64-lts/
 
 # Show info messages about changed directory structure
 # when updating from older build script versions
@@ -23,7 +23,7 @@ if [[ $(basename $0) == compile.sh ]]; then
 	dialog --title "Directory structure change notice" --colors --msgbox "Build script directory structure was changed to simplify the build environment setup, \
 	simplify upgrading in the future and improve compatibility with containers like Docker and Vagrant
 
-	To upgrade please clone the repository \Z4https://github.com/armbian/build/\Zn into an empty directory and launch \Z2compile.sh\Zn
+	To upgrade please clone the repository \Z4https://github.com/tmorin/armbian-build-pine64-lts/\Zn into an empty directory and launch \Z2compile.sh\Zn
 	Copying and editing compile.sh is not required, build configuration is defined in \Z1config-*.conf\Zn files
 	Default build configuration is defined in \Z1config-default.conf\Zn (created on first build script run)
 

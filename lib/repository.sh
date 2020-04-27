@@ -7,7 +7,7 @@
 # warranty of any kind, whether express or implied.
 
 # This file is a part of the Armbian build script
-# https://github.com/armbian/build/
+# https://github.com/tmorin/armbian-build-pine64-lts/
 
 # This script shows packages in local repository
 

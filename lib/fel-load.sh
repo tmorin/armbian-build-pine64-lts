@@ -5,7 +5,7 @@
 # warranty of any kind, whether express or implied.
 
 # This file is a part of the Armbian build script
-# https://github.com/armbian/build/
+# https://github.com/tmorin/armbian-build-pine64-lts/
 
 # FEL_ROOTFS should be set to path to debootstrapped root filesystem
 # unless you want to kill your /etc/fstab and share your rootfs on NFS
