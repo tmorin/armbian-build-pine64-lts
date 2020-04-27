@@ -10,6 +10,8 @@ git clone https://github.com/tmorin/armbian-build-pine64-lts /home/vagrant/armbi
 mkdir -p /vagrant/output /vagrant/userpatches
 ln -sf /vagrant/output /home/vagrant/armbian/output
 ln -sf /vagrant/userpatches /home/vagrant/armbian/userpatches
+cd /home/vagrant/armbian
+git checkout pine64lts-emmc
 SCRIPT
 
 Vagrant.configure(2) do |config|

@@ -67,7 +67,7 @@ if [[ ! -f $SRC/.ignore_changes ]]; then
 		echo -e "Press \e[0;33m<Ctrl-C>\x1B[0m to abort compilation, \e[0;33m<Enter>\x1B[0m to ignore and continue"
 		read
 	else
-		git checkout ${LIB_TAG:- master}
+		git checkout ${LIB_TAG:- pine64lts-emmc}
 	fi
 fi
 
